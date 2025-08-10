@@ -8,10 +8,10 @@ import 'screens/diagnosis/camera_screen.dart';
 import 'screens/diagnosis/result_screen.dart';
 
 void main() {
-  runApp(ScabiesDiagnosisApp());
+  runApp(ScanMe());
 }
 
-class ScabiesDiagnosisApp extends StatelessWidget {
+class ScanMe extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
